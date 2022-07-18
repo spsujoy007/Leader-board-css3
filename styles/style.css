@@ -106,6 +106,7 @@ hr {
     text-decoration: none;
     color: #562eff;
     font-size: 16px;
+    display: inline-block;
 }
 
 
@@ -185,7 +186,6 @@ Media query start from now
     .courses {
         grid-template-columns: 1fr 1fr;
         align-items: center;
-        justify-content: center;
     }
 
     .player,
@@ -198,8 +198,12 @@ Media query start from now
     }
 
     .blog {
-        width: 100%;
         align-items: center;
+    }
+
+    .blog-author {
+        display: flex;
+        justify-content: center;
     }
 
     .section-title {
